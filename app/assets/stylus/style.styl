@@ -1,0 +1,709 @@
+@import "nib"
+// .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+// 	padding 0
+body
+	-webkit-font-smoothing antialiased
+
+p 
+	font-family OpenSans-Regular
+	
+ul
+	margin 0
+	padding 0
+
+a
+	color inherit
+	
+	&:focus
+		text-decoration none
+		outline none
+	
+	&:hover
+		text-decoration none
+
+header
+	margin 0 auto
+	overflow hidden
+	
+.logotype3
+	margin: 0.3rem 0 1rem 2.5rem
+	padding 0
+	
+// header ul
+// 	list-style-type none
+// 	font-family OpenSans-Regular
+
+// header ul li
+// 	float left
+	
+.upper-bar
+	margin: 1.7rem 0 2.3rem 0px
+	overflow hidden
+
+.contacts
+	list-style-type none
+	font-family OpenSans-Regular
+	border-top solid 1px #e1e9f2
+	border-bottom solid 1px #e1e9f2
+	width 39.9rem
+	margin-right 2rem
+	float right  
+
+	li
+		float left
+		color #9ba4b0
+		padding-left 0.5rem
+	
+		&:nth-child(-n+2)
+			border-right 1px solid #e1e9f2
+			padding-right: 1rem
+	
+	p 
+		margin-top: 1rem
+		padding-left: 1rem
+	
+	span
+		color #000000
+
+	a:hover
+		text-decoration underline
+		color inherit	
+
+
+// .nav
+// 	padding 0
+
+ul.menu
+	list-style-type none
+	font-family OpenSans-Regular
+
+	li 
+		float left
+
+		&:first-child a
+			padding-left 3.5rem
+			
+		&:last-child a
+			padding-right 3.5rem
+	
+	a
+		display block
+		color #ffffff
+		padding: 2.2rem 2.2rem
+		background-color #ff8261
+		font-size: 1.4rem
+		text-align center
+		
+		&:hover
+			color #ffffff
+			background-color #52cbf8
+	
+.navbar-collapse
+	padding 0
+
+.nav>li>a:focus, .nav>li>a:hover
+	background-color #52cbf8
+
+// .active:active
+// 	background-color #e6e6e6
+// 	box-shadow inset 0 3px 5px rgba(0,0,0,.125)
+
+// .button-menu
+// 	display none
+// 	flat left
+// 	padding 2rem
+// 	font-family OpenSans-Regular
+// 	border 1px solid #cacaca
+	
+// .min-menu
+// 	display none
+
+.slide-bar
+	height 57rem
+	width 100%
+	background-color #222836
+	
+.sliders
+	width 85%
+	height 50rem
+	margin 0 auto
+	margin-top 5rem
+
+	.slider 
+		img
+			width 90%
+			height 35rem
+			margin 0 auto 2.6rem
+			padding 1rem
+		
+		p
+			color #ffffff
+			font-family OpenSans-ExtraBold
+			text-align center
+			font-size 3.5rem
+			// font-weight 800
+			line-height 0.7
+		
+		span
+			font-size 2rem
+			font-family OpenSans-Light
+			// font-weight 300
+		
+	.slick-dots li
+		width 1.1rem
+		height 1.1rem
+		margin 0 2px
+		bottom 7rem
+	
+		button
+			width 1.1rem
+			height 1.1rem
+			padding 0 
+
+			&:before
+				content ""
+				width 1.1rem
+				height 1.1rem
+				opacity 1
+				border solid 0.2rem #ff8261
+				border-radius 100%
+	
+	.slick-dots li.slick-active button:before
+		opacity 1
+		border-color #5278db
+	
+.left-arrow
+	color #ffffff
+	display block
+	position absolute
+	border solid 1px #91949b
+	border-radius 100%
+	padding 1.6rem 2.4rem 1.6rem 2.4rem
+	top 23rem
+	left 2.4rem
+	cursor pointer
+	text-decoration none
+	
+.right-arrow
+	color #ffffff
+	display block
+	position absolute
+	border solid 1px #91949b
+	border-radius 100%
+	padding 1.6rem 2.4rem 1.6rem 2.4rem
+	top 23rem
+	right 2.4rem
+	cursor pointer
+	text-decoration none
+	transition all 0.3s linear
+	
+.right-arrow:hover, .left-arrow:hover
+	color #222836
+	background rgba(255, 255, 255, .7)
+	transition all 0.3s ease-out
+
+.blue-bar
+	width 100%
+	padding 4rem 0 7rem 0
+	background-color #e7f4f8
+	margin-bottom 7rem
+	
+.blue-bar > div
+	margin 0 auto
+	float none
+		
+.domain 
+	color #9baeb4
+	font-size 1.9rem
+	margin-bottom 0
+	line-height: 1
+	padding-top: 2.8rem
+	float left
+
+	img
+	padding-bottom 0.5rem
+	
+	&:before
+		content ""
+		display block
+		position absolute
+		width 2.5rem
+		height 2.5rem
+		bottom 6rem
+		background url(../img/lense.png) no-repeat
+
+	span
+		color #556b72
+		font-size 3.1rem
+		// font-weight 800
+		margin 0
+		font-family OpenSans-ExtraBold
+
+.blue-bar-input
+	float left
+	font-family OpenSans-Regular
+	color #a7b0bb
+	height 5.3rem
+	// width 42rem
+	width 100%
+	padding 0 2rem
+	// margin 2.3rem 1.5rem 0 3rem
+	margin-top 2.3rem
+	border none
+	outline none	
+
+.blue-bar-input:focus, .blue-bar-input-bot:focus
+	border 1px solid #ccc
+	box-shadow inset 0 3px 5px rgba(0,0,0,.125)
+
+/********** Selects *********/
+.btn
+	border 0px
+	border-radius 0
+
+.btn-group.open .dropdown-toggle
+	border 1px solid #ccc
+
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default
+	background-color #ffffff
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn)
+	width 47%
+	float left
+	margin 2.3rem 1.5rem 0 0
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn):last-child
+	margin-right 0
+.bootstrap-select>.btn
+	height 5.3rem
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+	background-color #EAEAEA
+
+.blue-bar-search
+	float right
+	color #ffffff
+	font-family OpenSans-Bold
+	// font-weight 700
+	display block
+	padding: 1.9rem 5.6rem
+	margin-top: 2rem
+	background-color #ff8261
+	border none
+	outline none
+
+.blue-bar-search:hover
+	color #ffffff
+	background-color #52cbf8
+	
+.main-information
+	overflow hidden
+	margin-bottom 6rem
+	
+// .benefits
+// 	height inherit
+// 	overflow hidden
+// 	margin 0 auto
+
+.benefits-logotype
+	color #9baeb4
+	font-size 1.9rem
+	margin-bottom 3.8rem
+	line-height: 1
+	padding-top: 28px
+	
+.benefits-logotype span
+	color #556b72
+	font-size 3.1rem
+	// font-weight 800
+	margin 0
+	font-family OpenSans-ExtraBold
+
+.benefits-logotype:before
+	content ""
+	display block
+	position: absolute
+	bottom: 10rem
+	width: 2rem
+	border-top 2px solid #fb6b45
+	
+.benefits-blocks
+	margin 
+
+	img
+		float left
+	
+.benefits-blocks-text
+	float left
+	width 75%
+	padding-left 2rem
+	margin-bottom 6rem
+
+	p
+		color #9baeb4
+		font-size 1.3rem
+
+	h3
+		color #556b72
+		font-size 1.7rem
+		margin-top 0
+		// font-weight 800
+		font-family OpenSans-ExtraBold
+	
+.pinkish-background
+	background-color #fffbde
+	padding 7rem 0
+	margin-bottom 6rem
+
+.what-is-hot
+	color #9baeb4
+	font-size 1.9rem
+	margin-bottom 3.8rem
+	line-height: 1
+	padding-top: 2.8rem
+	
+	span
+		color #556b72
+		font-size 3.1rem
+		// font-weight 800
+		margin 0
+		font-family OpenSans-ExtraBold
+	
+	&:before
+		content ""
+		display block
+		position: absolute
+		top 1.3rem
+		width: 2rem
+		border-top 2px solid #fb6b45
+	
+.features-head
+	color #9baeb4
+	font-size 1.9rem
+	margin-bottom 3.8rem
+	margin-left 8rem
+	line-height: 1
+	padding-top: 2.8rem
+	
+	span
+		color #556b72
+		font-size 3.1rem
+		// font-weight 800
+		margin 0
+		font-family OpenSans-ExtraBold
+
+	&:before
+		content ""
+		display block
+		position: absolute
+		top 1.3rem
+		width: 2rem
+		border-top 2px solid #fb6b45	
+
+// .sales
+
+.sales-frame-background
+	background-color #ffffff
+	padding 1rem
+
+.sales-frame
+	overflow hidden
+	background-color #ffffff
+	padding 1rem
+	border solid 1px #fffbde
+
+.sales img
+	float left
+	
+.sales img:nth-child(2)
+	padding 2rem 0 0 0.5rem
+
+.features-list
+	column-count 2
+	column-gap 5rem
+	padding-left 8rem
+	
+.features-list li
+	color #696556
+	font-family OpenSans-Regular
+	list-style-type none
+	padding-bottom 1rem
+	
+.features-list span
+	padding-right 1rem
+	
+.view-all
+	display block
+	color #ffe9e5
+	background-color #ff8261
+	font-family OpenSans-Bold
+	// font-weight 700
+	float right
+	margin-top 16.8rem
+	padding 1.6rem 4.7rem 
+	
+.view-all:hover
+	color #ffe9e5
+	background-color #52cbf8
+	
+.our-hosting
+	color #9baeb4
+	font-size 1.9rem
+	margin-bottom 2.4rem
+	line-height: 1
+	padding-top: 28px
+	float left
+
+	span
+		color #556b72
+		font-size 3.1rem
+		// font-weight 800
+		margin 0
+		font-family OpenSans-ExtraBold
+
+	&:before
+		content ""
+		display block
+		position: absolute
+		bottom: 8.6rem
+		width: 2rem
+		border-top 2px solid #fb6b45
+
+.price-border
+	padding 4rem 0 2rem 0
+	border solid 1px #52cbf8
+	margin-bottom 2rem
+
+.price 
+	p
+		height 5rem
+		font-size 5rem
+		color #556b72
+		font-family OpenSans-Light
+		// font-weight 300
+		text-align center
+		line-height 0.3
+		margin-bottom 2rem
+	
+	b
+		// font-weight 800
+		font-family OpenSans-ExtraBold
+	
+	span
+		font-size medium
+		font-family OpenSans-Semibold
+		// font-weight 600
+
+	ul
+		list-style-type none
+		text-align center
+		line-height 2.5
+		margin-bottom 2rem
+
+	li
+		font-family OpenSans-Regular
+		color #8d9198
+	
+.plan
+	display block
+	color #ffffff
+	background-color #52cbf8
+	font-family OpenSans-ExtraBold
+	// font-weight 800
+	padding 1rem 0 1rem 0
+	margin 0 auto 3rem
+	width 18rem
+	text-align center
+
+.plan:hover
+	color #ffffff
+	background-color #ff8261
+	
+.signup
+	display block
+	color #ffffff
+	background-color #ff8261
+	font-family OpenSans-Bold
+	// font-weight 800
+	padding 1rem 0 1rem 0
+	margin 0 auto
+	width 11.5rem
+	text-align center
+	border none
+	
+	&:hover
+		color #ffffff
+		background-color #52cbf8
+
+.blue-bar-bot
+	margin 0
+
+.domain-bot:before
+	background url(../img/smallEnvelope.png) no-repeat
+	width 2.8rem
+
+.blue-bar-input-bot
+	float left
+	font-family OpenSans-Regular
+	color #a7b0bb
+	height 5.2rem
+	width 90%
+	padding-left 2rem
+	margin: 2.3rem 0 0 3rem
+	border none
+	outline none
+	
+.blue-bar-search-bot
+	float left
+	font-family OpenSans-Bold
+	// font-weight 700
+	color #ffffff
+	display block
+	padding: 1.6rem 2.6rem
+	margin-top: 2.3rem
+	background-color #ff8261
+	border none
+	
+.blue-bar-search-bot:hover
+	color #ffffff
+	background-color #52cbf8
+
+footer
+	width 100%
+	padding 10rem 0 4.5rem 0
+	background-color #4c515b
+
+	ul li
+		list-style-type none
+		color #909aad
+		line-height 2
+
+.logotype-footer 
+	img
+		padding-top 6.5rem
+
+	p
+		font-family OpenSans-Regular
+		color #909aad
+		padding-left 5.7rem
+
+.quick-links-ul
+	column-count 2
+	column-gap 4rem
+	
+.quick-links h5, .contact-us h5, .social-media h5
+	color #ffffff
+	font-family OpenSans-ExtraBold
+	// font-weight 800
+	padding-bottom 1rem
+	
+.quick-links a:hover, .social-media a:hover
+	color #ffffff
+	
+.contact-us 
+	span
+		color #d7e3e7
+	
+	p
+		margin 0
+		
+.social-media li
+	display inline-block
+	font-size 2rem
+	
+.social-media-indent
+	padding-left 2.4rem
+	
+@media screen and (max-width: 1199px)
+	.social-media-indent
+		padding-left 1.7rem
+		
+	.view-all
+		margin-top 0
+	.features-head
+		margin-left 0
+	.features-list
+		padding-left 0
+	.sales
+		margin-bottom 3rem
+		
+@media screen and (max-width: 992px)
+	.social-media-indent
+		padding-left 2.4rem
+	.logotype-footer p
+		margin-bottom 2rem
+
+	.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn):last-child
+		float right
+
+	.sales-frame-background
+		float left
+	.view-all
+		margin-top 16.5rem
+		
+@media screen and (max-width: 768px)
+	.quick-links-ul
+		width 28.2rem
+	.padding
+		padding-bottom 2.7rem
+		margin-left 10rem
+	
+	.contacts
+		width 100%
+		float left
+
+	.navbar-collapse
+		clear left
+		padding-right 15px
+		padding-left 15px
+	ul.menu
+		li
+			float none
+			width 18rem
+			margin-bottom 1rem
+			
+			&:first-child a
+				padding-left 2.2rem
+				
+			&:last-child a
+				padding-right 2.2rem
+	.navbar-toggle
+		background-color #ffffff
+		border 1px solid #acacac
+		float left
+		margin-right -18rem
+		.icon-bar
+			background-color #ababab
+			margin 0.2rem
+		&:hover
+			background-color #e8e8e8
+		
+	.left-arrow, .right-arrow
+		display none !important
+
+	.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn):last-child
+		float right
+		margin-right 0
+	a.blue-bar-search
+		float right
+		
+	.plan
+		width 90%
+	
+	.price-border
+		border-width 2px
+
+	.view-all
+		margin-top 1.5rem
+		float left
+	
+	.blue-bar-search-bot
+		float right
+	.input-padding-bot
+		padding-right 15px
+	
+	@media screen and (max-width: 600px)
+		.features-list
+			column-count 1
+			column-gap 0
+			padding-left 3rem
