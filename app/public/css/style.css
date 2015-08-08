@@ -1,34 +1,30 @@
 @font-face {
   font-family: OpenSans-Regular;
-  src: url("../library/Fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSansRegular.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSansRegular.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-Bold;
-  src: url("../library/Fonts/Open_Sans/OpenSans-Bold.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSansBold.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSansBold.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Bold.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-Light;
-  src: url("../library/Fonts/Open_Sans/OpenSans-Light.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSansLight.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSansLight.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Light.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-Semibold;
-  src: url("../library/Fonts/Open_Sans/OpenSans-Semibold.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSanssemiBold.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSanssemiBold.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Semibold.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-ExtraBold;
-  src: url("../library/Fonts/Open_Sans/OpenSans-ExtraBold.ttf") format('truetype');
-}
-@font-face {
-  font-family: OpenSans-Light;
-  src: url("../library/Fonts/Open_Sans/OpenSans-Light.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSansExtraBold.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSansExtraBold.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-ExtraBold.ttf") format('truetype');
 }
 @font-face {
   font-family: slick;
-  src: url("../library/slick-master/slick-master/slick/fonts/slick.ttf") format('truetype');
+  src: url("../library/slick-master/slick-master/slick/fonts/slick.eot") format('embedded-opentype'), url("../library/slick-master/slick-master/slick/fonts/slick.woff") format('woff'), url("../library/slick-master/slick-master/slick/fonts/slick.ttf") format('truetype');
 }
 @font-face {
   font-family: FontAwesome;
-  src: url("../library/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf") format('truetype');
+  src: url("../library/font-awesome-4.3.0/fonts/fontawesome-webfont.eot") format('embedded-opentype'), url("../library/font-awesome-4.3.0/fonts/fontawesome-webfont.woff") format('woff'), url("../library/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf") format('truetype');
 }
 
 body {
