@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: OpenSans-Semibold;
-  src: url("../library/Fonts/Open_Sans/OpenSanssemiBold.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSanssemiBold.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Semibold.ttf") format('truetype');
+  src: url("../library/Fonts/Open_Sans/OpenSansSemiBold.eot") format('embedded-opentype'), url("../library/Fonts/Open_Sans/OpenSansSemiBold.woff") format('woff'), url("../library/Fonts/Open_Sans/OpenSans-Semibold.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-ExtraBold;
